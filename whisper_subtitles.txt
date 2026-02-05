@@ -1,6 +1,6 @@
 # Whisper Auto-Generated Subtitles (Segment Level)
 # Format: index | start | end | text
-# This is automatic - may need corrections
+
 
 1 | 1.00 | 7.82 | أعوذ بالله من الشيطان الرجيم
 2 | 7.82 | 13.56 | بسم الله الرحمن الرحيم
