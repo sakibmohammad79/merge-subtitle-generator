@@ -1,0 +1,902 @@
+[
+  {
+    "index": 1,
+    "start": 1.2,
+    "end": 1.96,
+    "text": "أَعُوذُ",
+    "source": "merged",
+    "match_score": 0.8090909090909091,
+    "whisper_text": "أعوذ",
+    "manual_text": "أَعُوذُ"
+  },
+  {
+    "index": 2,
+    "start": 1.96,
+    "end": 2.98,
+    "text": "بِاللَّهِ",
+    "source": "merged",
+    "match_score": 0.8,
+    "whisper_text": "بالله",
+    "manual_text": "بِاللَّهِ"
+  },
+  {
+    "index": 3,
+    "start": 2.98,
+    "end": 3.4,
+    "text": "مِنَ",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "من",
+    "manual_text": "مِنَ"
+  },
+  {
+    "index": 4,
+    "start": 3.4,
+    "end": 4.92,
+    "text": "الشَّيْطَانِ",
+    "source": "merged",
+    "match_score": 0.8157894736842104,
+    "whisper_text": "الشيطان",
+    "manual_text": "الشَّيْطَانِ"
+  },
+  {
+    "index": 5,
+    "start": 4.92,
+    "end": 7.14,
+    "text": "الرَّجِيمِ",
+    "source": "merged",
+    "match_score": 0.825,
+    "whisper_text": "الرجيم",
+    "manual_text": "الرَّجِيمِ"
+  },
+  {
+    "index": 6,
+    "start": 8.02,
+    "end": 9.3,
+    "text": "بِسْمِ",
+    "source": "merged",
+    "match_score": 0.7654666666666666,
+    "whisper_text": "بسم",
+    "manual_text": "بِسْمِ"
+  },
+  {
+    "index": 7,
+    "start": 9.3,
+    "end": 9.92,
+    "text": "اللَّهِ",
+    "source": "merged",
+    "match_score": 0.8090909090909091,
+    "whisper_text": "الله",
+    "manual_text": "اللَّهِ"
+  },
+  {
+    "index": 8,
+    "start": 9.92,
+    "end": 11.62,
+    "text": "الرَّحْمَٰنِ",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "الرحمن",
+    "manual_text": "الرَّحْمَٰنِ"
+  },
+  {
+    "index": 9,
+    "start": 11.62,
+    "end": 12.9,
+    "text": "الرَّحِيمِ",
+    "source": "merged",
+    "match_score": 0.825,
+    "whisper_text": "الرحيم",
+    "manual_text": "الرَّحِيمِ"
+  },
+  {
+    "index": 10,
+    "start": 17.2,
+    "end": 18.6,
+    "text": "إِذَا",
+    "source": "merged",
+    "match_score": 0.825,
+    "whisper_text": "إذا",
+    "manual_text": "إِذَا"
+  },
+  {
+    "index": 11,
+    "start": 18.6,
+    "end": 20.0,
+    "text": "السَّمَاءُ",
+    "source": "merged",
+    "match_score": 0.825,
+    "whisper_text": "السماء",
+    "manual_text": "السَّمَاءُ"
+  },
+  {
+    "index": 12,
+    "start": 20.0,
+    "end": 22.14,
+    "text": "انفَطَرَتْ",
+    "source": "merged",
+    "match_score": 0.825,
+    "whisper_text": "انفطرت",
+    "manual_text": "انفَطَرَتْ"
+  },
+  {
+    "index": 13,
+    "start": 22.14,
+    "end": 23.96,
+    "text": "وَإِذَا",
+    "source": "merged",
+    "match_score": 0.8090909090909091,
+    "whisper_text": "وإذا",
+    "manual_text": "وَإِذَا"
+  },
+  {
+    "index": 14,
+    "start": 23.96,
+    "end": 25.3,
+    "text": "الْكَوَاكِبُ",
+    "source": "merged",
+    "match_score": 0.8157894736842104,
+    "whisper_text": "الكواكب",
+    "manual_text": "الْكَوَاكِبُ"
+  },
+  {
+    "index": 15,
+    "start": 25.3,
+    "end": 28.06,
+    "text": "انتَثَرَتْ",
+    "source": "merged",
+    "match_score": 0.825,
+    "whisper_text": "انتثرت",
+    "manual_text": "انتَثَرَتْ"
+  },
+  {
+    "index": 16,
+    "start": 28.06,
+    "end": 30.06,
+    "text": "وَإِذَا",
+    "source": "merged",
+    "match_score": 0.8090909090909091,
+    "whisper_text": "وإذا",
+    "manual_text": "وَإِذَا"
+  },
+  {
+    "index": 17,
+    "start": 30.06,
+    "end": 31.22,
+    "text": "الْبِحَارُ",
+    "source": "merged",
+    "match_score": 0.825,
+    "whisper_text": "البحار",
+    "manual_text": "الْبِحَارُ"
+  },
+  {
+    "index": 18,
+    "start": 31.22,
+    "end": 32.28,
+    "text": "فُجِّرَتْ",
+    "source": "merged",
+    "match_score": 0.7307692307692308,
+    "whisper_text": "فجرت",
+    "manual_text": "فُجِّرَتْ"
+  },
+  {
+    "index": 19,
+    "start": 32.28,
+    "end": 34.22,
+    "text": "وَإِذَا",
+    "source": "merged",
+    "match_score": 0.8090909090909091,
+    "whisper_text": "وإذا",
+    "manual_text": "وَإِذَا"
+  },
+  {
+    "index": 20,
+    "start": 34.22,
+    "end": 35.4,
+    "text": "الْقُبُورُ",
+    "source": "merged",
+    "match_score": 0.825,
+    "whisper_text": "القبور",
+    "manual_text": "الْقُبُورُ"
+  },
+  {
+    "index": 21,
+    "start": 35.4,
+    "end": 36.52,
+    "text": "بُعْثِرَتْ",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "بعثرت",
+    "manual_text": "بُعْثِرَتْ"
+  },
+  {
+    "index": 22,
+    "start": 36.52,
+    "end": 38.26,
+    "text": "عَلِمَتْ",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "علمت",
+    "manual_text": "عَلِمَتْ"
+  },
+  {
+    "index": 23,
+    "start": 38.26,
+    "end": 38.96,
+    "text": "نَفْسٌ",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "نفس",
+    "manual_text": "نَفْسٌ"
+  },
+  {
+    "index": 24,
+    "start": 38.96,
+    "end": 40.02,
+    "text": "مَّا",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "ما",
+    "manual_text": "مَّا"
+  },
+  {
+    "index": 25,
+    "start": 40.02,
+    "end": 42.6,
+    "text": "قَدَّمَتْ",
+    "source": "merged",
+    "match_score": 0.7307692307692308,
+    "whisper_text": "قدمت",
+    "manual_text": "قَدَّمَتْ"
+  },
+  {
+    "index": 26,
+    "start": 42.6,
+    "end": 43.92,
+    "text": "وَأَخَّرَتْ",
+    "source": "merged",
+    "match_score": 0.7375,
+    "whisper_text": "وأخرت",
+    "manual_text": "وَأَخَّرَتْ"
+  },
+  {
+    "index": 27,
+    "start": 43.92,
+    "end": 45.22,
+    "text": "يَا",
+    "source": "merged",
+    "match_score": 0.8599999999999999,
+    "whisper_text": "يا",
+    "manual_text": "يَا"
+  },
+  {
+    "index": 28,
+    "start": 45.22,
+    "end": 47.8,
+    "text": "أَيُّهَا",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "أيها",
+    "manual_text": "أَيُّهَا"
+  },
+  {
+    "index": 29,
+    "start": 47.8,
+    "end": 50.18,
+    "text": "الْإِنسَانُ",
+    "source": "merged",
+    "match_score": 0.8444444444444443,
+    "whisper_text": "الإنسان",
+    "manual_text": "الْإِنسَانُ"
+  },
+  {
+    "index": 30,
+    "start": 50.18,
+    "end": 50.5,
+    "text": "مَا",
+    "source": "merged",
+    "match_score": 0.8599999999999999,
+    "whisper_text": "ما",
+    "manual_text": "مَا"
+  },
+  {
+    "index": 31,
+    "start": 50.5,
+    "end": 51.46,
+    "text": "غَرَّكَ",
+    "source": "merged",
+    "match_score": 0.72,
+    "whisper_text": "غرك",
+    "manual_text": "غَرَّكَ"
+  },
+  {
+    "index": 32,
+    "start": 51.46,
+    "end": 52.88,
+    "text": "بِرَبِّكَ",
+    "source": "merged",
+    "match_score": 0.7307692307692308,
+    "whisper_text": "بربك",
+    "manual_text": "بِرَبِّكَ"
+  },
+  {
+    "index": 33,
+    "start": 52.88,
+    "end": 55.0,
+    "text": "الْكَرِيمِ",
+    "source": "merged",
+    "match_score": 0.825,
+    "whisper_text": "الكريم",
+    "manual_text": "الْكَرِيمِ"
+  },
+  {
+    "index": 34,
+    "start": 55.0,
+    "end": 57.02,
+    "text": "الَّذِي",
+    "source": "merged",
+    "match_score": 0.8090909090909091,
+    "whisper_text": "الذي",
+    "manual_text": "الَّذِي"
+  },
+  {
+    "index": 35,
+    "start": 57.02,
+    "end": 58.24,
+    "text": "خَلَقَكَ",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "خلقك",
+    "manual_text": "خَلَقَكَ"
+  },
+  {
+    "index": 36,
+    "start": 58.24,
+    "end": 59.52,
+    "text": "فَسَوَّاكَ",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "فسواك",
+    "manual_text": "فَسَوَّاكَ"
+  },
+  {
+    "index": 37,
+    "start": 59.52,
+    "end": 60.6,
+    "text": "فَعَدَلَكَ",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "فعدلك",
+    "manual_text": "فَعَدَلَكَ"
+  },
+  {
+    "index": 38,
+    "start": 60.6,
+    "end": 61.06,
+    "text": "فِي",
+    "source": "merged",
+    "match_score": 0.8599999999999999,
+    "whisper_text": "في",
+    "manual_text": "فِي"
+  },
+  {
+    "index": 39,
+    "start": 61.06,
+    "end": 62.88,
+    "text": "أَيِّ",
+    "source": "merged",
+    "match_score": 0.7,
+    "whisper_text": "أي",
+    "manual_text": "أَيِّ"
+  },
+  {
+    "index": 40,
+    "start": 62.88,
+    "end": 64.16,
+    "text": "صُورَةٍ",
+    "source": "merged",
+    "match_score": 0.8090909090909091,
+    "whisper_text": "صورة",
+    "manual_text": "صُورَةٍ"
+  },
+  {
+    "index": 41,
+    "start": 64.16,
+    "end": 65.1,
+    "text": "مَّا",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "ما",
+    "manual_text": "مَّا"
+  },
+  {
+    "index": 42,
+    "start": 65.1,
+    "end": 67.4,
+    "text": "شَاءَ",
+    "source": "merged",
+    "match_score": 0.825,
+    "whisper_text": "شاء",
+    "manual_text": "شَاءَ"
+  },
+  {
+    "index": 43,
+    "start": 67.4,
+    "end": 69.3,
+    "text": "رَكَّبَكَ",
+    "source": "merged",
+    "match_score": 0.7307692307692308,
+    "whisper_text": "ركبك",
+    "manual_text": "رَكَّبَكَ"
+  },
+  {
+    "index": 44,
+    "start": 69.3,
+    "end": 70.72,
+    "text": "كَلَّا",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "كلا",
+    "manual_text": "كَلَّا"
+  },
+  {
+    "index": 45,
+    "start": 70.72,
+    "end": 71.6,
+    "text": "بَلْ",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "بل",
+    "manual_text": "بَلْ"
+  },
+  {
+    "index": 46,
+    "start": 71.6,
+    "end": 73.08,
+    "text": "تُكَذِّبُونَ",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "تكذبون",
+    "manual_text": "تُكَذِّبُونَ"
+  },
+  {
+    "index": 47,
+    "start": 73.08,
+    "end": 75.22,
+    "text": "بِالدِّينِ",
+    "source": "merged",
+    "match_score": 0.825,
+    "whisper_text": "بالدين",
+    "manual_text": "بِالدِّينِ"
+  },
+  {
+    "index": 48,
+    "start": 75.22,
+    "end": 77.72,
+    "text": "وَإِنَّ",
+    "source": "merged",
+    "match_score": 0.72,
+    "whisper_text": "وإن",
+    "manual_text": "وَإِنَّ"
+  },
+  {
+    "index": 49,
+    "start": 77.72,
+    "end": 79.48,
+    "text": "عَلَيْكُمْ",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "عليكم",
+    "manual_text": "عَلَيْكُمْ"
+  },
+  {
+    "index": 50,
+    "start": 79.48,
+    "end": 81.88,
+    "text": "لَحَافِظِينَ",
+    "source": "merged",
+    "match_score": 0.7421052631578946,
+    "whisper_text": "لحافذين",
+    "manual_text": "لَحَافِظِينَ"
+  },
+  {
+    "index": 51,
+    "start": 81.88,
+    "end": 84.32,
+    "text": "كِرَامًا",
+    "source": "merged",
+    "match_score": 0.8384615384615384,
+    "whisper_text": "كراما",
+    "manual_text": "كِرَامًا"
+  },
+  {
+    "index": 52,
+    "start": 84.32,
+    "end": 88.36,
+    "text": "كَاتِبِينَ",
+    "source": "merged",
+    "match_score": 0.825,
+    "whisper_text": "كاتبين",
+    "manual_text": "كَاتِبِينَ"
+  },
+  {
+    "index": 53,
+    "start": 88.9,
+    "end": 91.16,
+    "text": "يَعْلَمُونَ",
+    "source": "merged",
+    "match_score": 0.7941176470588236,
+    "whisper_text": "يعلمون",
+    "manual_text": "يَعْلَمُونَ"
+  },
+  {
+    "index": 54,
+    "start": 91.16,
+    "end": 91.56,
+    "text": "مَا",
+    "source": "merged",
+    "match_score": 0.8599999999999999,
+    "whisper_text": "ما",
+    "manual_text": "مَا"
+  },
+  {
+    "index": 55,
+    "start": 91.56,
+    "end": 94.2,
+    "text": "تَفْعَلُونَ",
+    "source": "merged",
+    "match_score": 0.7941176470588236,
+    "whisper_text": "تفعلون",
+    "manual_text": "تَفْعَلُونَ"
+  },
+  {
+    "index": 56,
+    "start": 94.72,
+    "end": 96.2,
+    "text": "إِنَّ",
+    "source": "merged",
+    "match_score": 0.7,
+    "whisper_text": "إن",
+    "manual_text": "إِنَّ"
+  },
+  {
+    "index": 57,
+    "start": 96.2,
+    "end": 98.78,
+    "text": "الْأَبْرَارَ",
+    "source": "merged",
+    "match_score": 0.8157894736842104,
+    "whisper_text": "الأبرار",
+    "manual_text": "الْأَبْرَارَ"
+  },
+  {
+    "index": 58,
+    "start": 98.78,
+    "end": 99.44,
+    "text": "لَفِي",
+    "source": "merged",
+    "match_score": 0.825,
+    "whisper_text": "لفي",
+    "manual_text": "لَفِي"
+  },
+  {
+    "index": 59,
+    "start": 99.44,
+    "end": 101.58,
+    "text": "نَعِيمٍ",
+    "source": "merged",
+    "match_score": 0.8090909090909091,
+    "whisper_text": "نعيم",
+    "manual_text": "نَعِيمٍ"
+  },
+  {
+    "index": 60,
+    "start": 102.16,
+    "end": 104.06,
+    "text": "وَإِنَّ",
+    "source": "merged",
+    "match_score": 0.72,
+    "whisper_text": "وإن",
+    "manual_text": "وَإِنَّ"
+  },
+  {
+    "index": 61,
+    "start": 104.06,
+    "end": 107.08,
+    "text": "الْفُجَّارَ",
+    "source": "merged",
+    "match_score": 0.7941176470588236,
+    "whisper_text": "الفجار",
+    "manual_text": "الْفُجَّارَ"
+  },
+  {
+    "index": 62,
+    "start": 107.08,
+    "end": 107.8,
+    "text": "لَفِي",
+    "source": "merged",
+    "match_score": 0.825,
+    "whisper_text": "لفي",
+    "manual_text": "لَفِي"
+  },
+  {
+    "index": 63,
+    "start": 107.8,
+    "end": 109.08,
+    "text": "جَحِيمٍ",
+    "source": "merged",
+    "match_score": 0.8090909090909091,
+    "whisper_text": "جحيم",
+    "manual_text": "جَحِيمٍ"
+  },
+  {
+    "index": 64,
+    "start": 111.3,
+    "end": 112.7,
+    "text": "يَصْلَوْنَهَا",
+    "source": "merged",
+    "match_score": 0.7899999999999999,
+    "whisper_text": "يصلونها",
+    "manual_text": "يَصْلَوْنَهَا"
+  },
+  {
+    "index": 65,
+    "start": 112.7,
+    "end": 113.64,
+    "text": "يَوْمَ",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "يوم",
+    "manual_text": "يَوْمَ"
+  },
+  {
+    "index": 66,
+    "start": 113.64,
+    "end": 114.58,
+    "text": "الدِّينِ",
+    "source": "merged",
+    "match_score": 0.8384615384615384,
+    "whisper_text": "الدين",
+    "manual_text": "الدِّينِ"
+  },
+  {
+    "index": 67,
+    "start": 114.58,
+    "end": 115.18,
+    "text": "وَمَا",
+    "source": "merged",
+    "match_score": 0.825,
+    "whisper_text": "وما",
+    "manual_text": "وَمَا"
+  },
+  {
+    "index": 68,
+    "start": 115.18,
+    "end": 115.92,
+    "text": "هُم",
+    "source": "merged",
+    "match_score": 0.8599999999999999,
+    "whisper_text": "هم",
+    "manual_text": "هُم"
+  },
+  {
+    "index": 69,
+    "start": 115.92,
+    "end": 116.76,
+    "text": "عَنْهَا",
+    "source": "merged",
+    "match_score": 0.8090909090909091,
+    "whisper_text": "عنها",
+    "manual_text": "عَنْهَا"
+  },
+  {
+    "index": 70,
+    "start": 116.76,
+    "end": 120.1,
+    "text": "بِغَائِبِينَ",
+    "source": "merged",
+    "match_score": 0.8157894736842104,
+    "whisper_text": "بغائبين",
+    "manual_text": "بِغَائِبِينَ"
+  },
+  {
+    "index": 71,
+    "start": 120.1,
+    "end": 122.06,
+    "text": "وَمَا",
+    "source": "merged",
+    "match_score": 0.825,
+    "whisper_text": "وما",
+    "manual_text": "وَمَا"
+  },
+  {
+    "index": 72,
+    "start": 122.06,
+    "end": 124.54,
+    "text": "أَدْرَاكَ",
+    "source": "merged",
+    "match_score": 0.8,
+    "whisper_text": "أدراك",
+    "manual_text": "أَدْرَاكَ"
+  },
+  {
+    "index": 73,
+    "start": 124.54,
+    "end": 124.88,
+    "text": "مَا",
+    "source": "merged",
+    "match_score": 0.8599999999999999,
+    "whisper_text": "ما",
+    "manual_text": "مَا"
+  },
+  {
+    "index": 74,
+    "start": 124.88,
+    "end": 125.8,
+    "text": "يَوْمُ",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "يوم",
+    "manual_text": "يَوْمُ"
+  },
+  {
+    "index": 75,
+    "start": 125.8,
+    "end": 127.42,
+    "text": "الدِّينِ",
+    "source": "merged",
+    "match_score": 0.8384615384615384,
+    "whisper_text": "الدين",
+    "manual_text": "الدِّينِ"
+  },
+  {
+    "index": 76,
+    "start": 128.88,
+    "end": 130.28,
+    "text": "ثُمَّ",
+    "source": "merged",
+    "match_score": 0.7,
+    "whisper_text": "ثم",
+    "manual_text": "ثُمَّ"
+  },
+  {
+    "index": 77,
+    "start": 130.28,
+    "end": 131.38,
+    "text": "مَا",
+    "source": "merged",
+    "match_score": 0.8599999999999999,
+    "whisper_text": "ما",
+    "manual_text": "مَا"
+  },
+  {
+    "index": 78,
+    "start": 131.38,
+    "end": 134.02,
+    "text": "أَدْرَاكَ",
+    "source": "merged",
+    "match_score": 0.8,
+    "whisper_text": "أدراك",
+    "manual_text": "أَدْرَاكَ"
+  },
+  {
+    "index": 79,
+    "start": 134.02,
+    "end": 134.3,
+    "text": "مَا",
+    "source": "merged",
+    "match_score": 0.8599999999999999,
+    "whisper_text": "ما",
+    "manual_text": "مَا"
+  },
+  {
+    "index": 80,
+    "start": 134.3,
+    "end": 135.2,
+    "text": "يَوْمُ",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "يوم",
+    "manual_text": "يَوْمُ"
+  },
+  {
+    "index": 81,
+    "start": 135.2,
+    "end": 136.98,
+    "text": "الدِّينِ",
+    "source": "merged",
+    "match_score": 0.8384615384615384,
+    "whisper_text": "الدين",
+    "manual_text": "الدِّينِ"
+  },
+  {
+    "index": 82,
+    "start": 136.98,
+    "end": 139.42,
+    "text": "يَوْمَ",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "يوم",
+    "manual_text": "يَوْمَ"
+  },
+  {
+    "index": 83,
+    "start": 139.42,
+    "end": 139.76,
+    "text": "لَا",
+    "source": "merged",
+    "match_score": 0.8599999999999999,
+    "whisper_text": "لا",
+    "manual_text": "لَا"
+  },
+  {
+    "index": 84,
+    "start": 139.76,
+    "end": 140.86,
+    "text": "تَمْلِكُ",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "تملك",
+    "manual_text": "تَمْلِكُ"
+  },
+  {
+    "index": 85,
+    "start": 140.86,
+    "end": 141.5,
+    "text": "نَفْسٌ",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "نفس",
+    "manual_text": "نَفْسٌ"
+  },
+  {
+    "index": 86,
+    "start": 141.5,
+    "end": 142.62,
+    "text": "لِّنَفْسٍ",
+    "source": "merged",
+    "match_score": 0.7307692307692308,
+    "whisper_text": "لنفس",
+    "manual_text": "لِّنَفْسٍ"
+  },
+  {
+    "index": 87,
+    "start": 142.62,
+    "end": 145.64,
+    "text": "شَيْئًا",
+    "source": "merged",
+    "match_score": 0.8090909090909091,
+    "whisper_text": "شيئا",
+    "manual_text": "شَيْئًا"
+  },
+  {
+    "index": 88,
+    "start": 145.64,
+    "end": 147.72,
+    "text": "وَالْأَمْرُ",
+    "source": "merged",
+    "match_score": 0.7941176470588236,
+    "whisper_text": "والأمر",
+    "manual_text": "وَالْأَمْرُ"
+  },
+  {
+    "index": 89,
+    "start": 147.72,
+    "end": 148.9,
+    "text": "يَوْمَئِذٍ",
+    "source": "merged",
+    "match_score": 0.7666666666666666,
+    "whisper_text": "يومئذ",
+    "manual_text": "يَوْمَئِذٍ"
+  },
+  {
+    "index": 90,
+    "start": 148.9,
+    "end": 150.28,
+    "text": "لِلَّهِ",
+    "source": "merged",
+    "match_score": 0.72,
+    "whisper_text": "لله",
+    "manual_text": "لِلَّهِ"
+  }
+]

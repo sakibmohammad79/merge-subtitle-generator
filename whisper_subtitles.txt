@@ -1,0 +1,4 @@
+# Whisper Auto-Generated Subtitles
+# Format: index | start | end | text
+# This is automatic - may need corrections
+

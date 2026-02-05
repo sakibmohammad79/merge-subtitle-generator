@@ -1,0 +1,38 @@
+# --- Python Specific ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# --- Video/Audio Processing (Temporary Files) ---
+# Transcription এর সময় তৈরি হওয়া টেম্পোরারি অডিও
+temp_audio.wav
+# মুভিপাই এর টেম্পোরারি ফাইল
+*.mp4.xml
+*.temp
+__temp__*
+
+# --- Project Specific Outputs ---
+# আপনি যদি চান আপনার আউটপুট ভিডিও বা SRT গিটহাবে না যাক
+output_subtitled.mp4
+output_subtitled_pro.mp4
+subtitles.srt
+
+# --- Large AI Models ---
+# Whisper মডেল যদি লোকাল ফোল্ডারে ডাউনলোড হয়
+.cache/whisper/
+models/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editor Specific ---
+.vscode/
+.idea/
+*.swp
