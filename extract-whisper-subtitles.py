@@ -14,7 +14,9 @@ TASK = "transcribe"
 # Output Files
 OUTPUT_WHISPER_TXT = "whisper_subtitles.txt"
 OUTPUT_WHISPER_JSON = "whisper_subtitles.json"
+
 SUBTITLE_DELAY = 1.0
+
 
 def extract_audio_from_video(video_path):
     video = VideoFileClip(video_path)
@@ -40,14 +42,14 @@ def transcribe_with_whisper(audio_file, language, task):
     
     print(f"\nTranscribing audio...")
     print(f"   Language: {language}")
-    print(f"   Word-level timestamps: Enabled")
+    print(f"   Segment-level timestamps: Enabled")
     print("   This may take several minutes...")
     
     result = model.transcribe(
         audio_file,
         language=language,
         task=task,
-        word_timestamps=False,
+        word_timestamps=False,  # Changed to False for segment-level
         no_speech_threshold=0.6,
         condition_on_previous_text=False,
         verbose=False
@@ -57,27 +59,23 @@ def transcribe_with_whisper(audio_file, language, task):
     return result
 
 
-# def process_word_level_subtitles(result, delay):
-#     """Process word-by-word subtitles from Whisper"""
-#     print(f"\nProcessing word-level subtitles...")
+def process_segment_level_subtitles(result, delay):
+    """Process segment-by-segment subtitles from Whisper"""
+    print(f"\nProcessing segment-level subtitles...")
     
-#     subtitles = []
-#     word_index = 0
+    subtitles = []
     
-#     for segment in result['segments']:
-#         if 'words' in segment and segment['words']:
-#             for word in segment['words']:
-#                 word_index += 1
-#                 subtitles.append({
-#                     'index': word_index,
-#                     'text': word['word'].strip(),
-#                     'start': round(word['start'] + delay, 2),
-#                     'end': round(word['end'] + delay, 2),
-#                     'duration': round(word['end'] - word['start'], 2),
-#                     'source': 'whisper'
-#                 })
+    for idx, segment in enumerate(result['segments'], start=1):
+        subtitles.append({
+            'index': idx,
+            'text': segment['text'].strip(),
+            'start': round(segment['start'] + delay, 2),
+            'end': round(segment['end'] + delay, 2),
+            'duration': round(segment['end'] - segment['start'], 2),
+            'source': 'whisper'
+        })
     
-#     return subtitles
+    return subtitles
 
 
 def save_txt_format(subtitles, filename):
@@ -85,7 +83,7 @@ def save_txt_format(subtitles, filename):
     print(f"\nSaving: {filename}")
     
     with open(filename, 'w', encoding='utf-8') as f:
-        f.write("# Whisper Auto-Generated Subtitles\n")
+        f.write("# Whisper Auto-Generated Subtitles (Segment Level)\n")
         f.write("# Format: index | start | end | text\n")
         f.write("# This is automatic - may need corrections\n\n")
         
@@ -104,13 +102,15 @@ def save_json_format(subtitles, filename):
 
 def preview_subtitles(subtitles, count=10):
     """Show preview"""
-    print(f"PREVIEW (First {count} of {len(subtitles)})")
+    print(f"\n{'='*70}")
+    print(f"PREVIEW (First {count} of {len(subtitles)} segments)")
+    print(f"{'='*70}\n")
 
     for i, sub in enumerate(subtitles[:count], 1):
         print(f"{i}. [{sub['start']:.1f}s - {sub['end']:.1f}s] {sub['text']}")
     
     if len(subtitles) > count:
-        print(f"\n... and {len(subtitles) - count} more")
+        print(f"\n... and {len(subtitles) - count} more segments")
 
 
 
@@ -119,17 +119,20 @@ def main():
         print(f"\nError: Video file not found: {VIDEO_PATH}")
         return
     
+    print(f"\n{'='*70}")
+    print(f"WHISPER SEGMENT-LEVEL SUBTITLE GENERATOR")
+    print(f"{'='*70}")
     print(f"\nVideo found: {VIDEO_PATH}")
     
     try:
         # Step 1: Extract audio
         audio_file = extract_audio_from_video(VIDEO_PATH)
         
-        # Step 2: Transcribe
-        subtitles = transcribe_with_whisper(audio_file, LANGUAGE, TASK)
+        # Step 2: Transcribe (segment level)
+        result = transcribe_with_whisper(audio_file, LANGUAGE, TASK)
         
-        # Step 3: Process
-        # subtitles = process_word_level_subtitles(result, SUBTITLE_DELAY)
+        # Step 3: Process segments (not words)
+        subtitles = process_segment_level_subtitles(result, SUBTITLE_DELAY)
         
         # Step 4: Preview
         preview_subtitles(subtitles)
@@ -143,10 +146,10 @@ def main():
             os.remove(audio_file)
         
         print("\n" + "="*70)
-        print("SUCCESS! Whisper subtitles created!")
+        print("SUCCESS! Whisper segment-level subtitles created!")
         print("="*70)
         print(f"\nGenerated: {OUTPUT_WHISPER_TXT}")
-        print(f"Total words: {len(subtitles)}")
+        print(f"Total segments: {len(subtitles)}")
  
         
     except Exception as e:
@@ -159,6 +162,7 @@ def main():
                 os.remove("temp_audio.wav")
             except:
                 pass
+
 
 if __name__ == "__main__":
     try:
